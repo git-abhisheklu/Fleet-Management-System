@@ -1,0 +1,59 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  padding-top: 0px; /* Adjust padding based on the height of your navbar */
+}
+
+.home-content {
+  padding: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .home-content h1 {
+      font-size: 100px;
+      margin-right: 0;
+  }
+
+  .navbar a {
+      padding: 10px;
+  }
+
+  .navbar-toggle {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-content h1 {
+      font-size: 70px;
+      margin: 0;
+  }
+
+  .navbar {
+      padding: 10px 15px;
+  }
+
+  .navbar-toggle {
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-content h1 {
+      font-size: 50px;
+      margin: 0;
+  }
+
+  .navbar {
+      padding: 8px 12px;
+  }
+
+  .navbar-toggle {
+      font-size: 16px;
+  }
+}

@@ -1,0 +1,53 @@
+.staff-page {
+    min-height: 100vh;
+    background-image: url('https://images.pexels.com/photos/2514035/pexels-photo-2514035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5rem;
+  }
+  
+  .staff-page-heading {
+    font-size: 5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(147, 140, 140, 0.7);
+    margin-bottom: 2rem; /* Adjusted margin to bring buttons closer */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem; /* Adjusted margin to bring buttons closer */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .button-group .btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button-group .btn:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .staff-page-heading {
+      font-size: 2.5rem;
+    }
+  
+    .button-group .btn {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  }

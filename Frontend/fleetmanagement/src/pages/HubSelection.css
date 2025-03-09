@@ -1,0 +1,119 @@
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Container Styling */
+.hub-selection {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  color: #333; /* Adjust text color for better readability */
+}
+
+/* Header */
+.hub-selection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Hub Card Styling */
+.hub-card {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for cards */
+}
+
+.hub-card:hover {
+  background-color: #f1f1f1;
+}
+
+.hub-card input[type="radio"] {
+  cursor: pointer;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.button-group button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Primary Button */
+.button-group .btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-group .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Secondary Button (Red) */
+.button-group .btn-secondary {
+  background-color: #dc3545;
+  color: white;
+}
+
+.button-group .btn-secondary:hover {
+  background-color: #a71d2a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 0;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+  .hub-selection {
+    width: 90%;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

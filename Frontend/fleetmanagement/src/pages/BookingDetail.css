@@ -1,0 +1,68 @@
+.booking-container {
+    position: relative;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.booking-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../assets/book.png") no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1; /* Ensure the background is behind the content */
+}
+
+h2, h4 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-group label {
+    font-weight: bold;
+    color: white;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.text-center .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.text-center .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.text-center .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.text-center .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.text-center .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.text-center .btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.text-center .btn-danger:hover {
+    background-color: #b21f2d;
+}

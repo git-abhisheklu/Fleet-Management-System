@@ -1,0 +1,106 @@
+/* StaffLogin.css */
+
+/* Background and Container Styling */
+.staff-login-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card Styling */
+.card {
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 20px;
+  width: 100%;
+  max-width: 400px; /* Limit card width */
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form-label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Disabled Input Styling */
+.form-control:disabled {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Error Message Styling */
+.text-danger {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Button Styling */
+.btn-primary {
+  width: 100%;
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+      padding: 15px;
+  }
+
+  .card-title {
+      font-size: 1.5rem;
+  }
+
+  .form-control {
+      padding: 8px;
+      font-size: 0.875rem;
+  }
+
+  .btn-primary {
+      padding: 8px;
+      font-size: 0.875rem;
+  }
+}

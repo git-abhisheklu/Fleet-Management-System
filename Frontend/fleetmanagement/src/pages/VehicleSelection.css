@@ -1,0 +1,118 @@
+/* Reset default margins and paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Background Image */
+.vehicle-selection-container {
+    background-image: url('../assets/vehicleselection.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+}
+
+/* Title */
+.title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Table Container */
+.table-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    overflow-x: auto;
+}
+
+/* Table Styling */
+.vehicle-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.vehicle-table th, .vehicle-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.vehicle-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.vehicle-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.vehicle-table tr:hover {
+    background-color: #d1ecf1;
+}
+
+/* Car Image */
+.car-image {
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+/* Selected Row Highlight */
+.selected {
+    background-color: #ffd700 !important;
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Buttons */
+.continue-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.continue-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.cancel-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.continue-btn:hover {
+    background-color: #218838;
+}
+
+.cancel-btn:hover {
+    background-color: #c82333;
+}
+
+/* Loading and Error Messages */
+.loading, .error {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}

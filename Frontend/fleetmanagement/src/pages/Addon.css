@@ -1,0 +1,107 @@
+/* Background Styling */
+.addon-form-container {
+    /* background: url("../assets/Addon.png") no-repeat center center fixed; */
+    background-size: cover; /* Ensure the background image covers the entire container */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 0; /* Remove any margin */
+    width: 100%; /* Ensure the container takes the full width */
+}
+
+/* Title Styling */
+h3.addon-title {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black; /* Add text shadow for better readability */
+}
+
+/* Form and Addon Items */
+.addon-item {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.addon-label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Child Seat Dropdown */
+.child-seat-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.child-seat-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+
+.child-seat-dropdown {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.continue-button {
+    background-color: #28a745;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.cancel-button {
+    background-color: #dc3545;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.continue-button:hover {
+    background-color: #218838;
+}
+
+.cancel-button:hover {
+    background-color: #c82333;
+}

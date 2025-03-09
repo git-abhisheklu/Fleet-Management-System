@@ -1,0 +1,75 @@
+/* Background Image for the Entire Page */
+.customer-form-background {
+    background: url("../assets/CustomerInfo.png") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Customer Form Container */
+.customer-form-container {
+    background: rgba(242, 173, 128, 0.9);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px; /* Adjust the max-width as needed */
+}
+
+/* Form Layout */
+.customer-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 15px; /* Space between grid items */
+}
+
+/* Form Title */
+.form-title {
+    grid-column: span 2; /* Title spans both columns */
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Form Labels */
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+/* Form Controls */
+.form-control {
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Submit Button */
+.submit-btn {
+    grid-column: span 2; /* Submit button spans both columns */
+    width: 100%;
+    background-color: #c75001;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #bb5211;
+}
+
